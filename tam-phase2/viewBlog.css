@@ -1,0 +1,69 @@
+#title{
+    font-size: 4em;
+}
+
+#time{
+    font-size: 1em;
+}
+
+form{
+    margin: auto;
+    width:fit-content;
+}
+#blog{ 
+    width: fit-content;
+    margin: 0 auto;
+}
+section button{
+    margin: 0 auto;
+    font-size: 1.2em;
+    border: .4em solid black;
+    border-radius:1.563em;
+    padding-block: 1em;
+    margin-bottom: 1.2em;
+    padding-inline: 2em;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+
+hr{
+    width: 80%;
+}
+.entry{
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: lightgray;
+    height: fit-content;
+    border: 0.4em solid orange;
+    border-radius:1.563em;
+    width: 50%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+
+.entry summary{
+    font-size: 1.25em;
+    width:20em;
+}
+
+.entry details{
+    margin: 0 auto;
+    background-color: white;
+    border: 0.4em solid white;
+    border-radius:1.563em;
+    margin-bottom: 1.1em;
+    width:90%;
+    height: fit-content;
+}
+
+.entry details p{
+    max-width: 90%;
+    background-color: white;
+    margin-left: 1.1em;
+    width: 38em;
+}

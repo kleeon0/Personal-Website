@@ -1,0 +1,51 @@
+legend{
+    border-bottom: solid 1pt black;
+    padding:0.4em;
+    background-color: darkorange;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+form{
+    margin: auto;
+    width:fit-content;
+    margin-top: 12em ;
+}
+
+fieldset{
+    border: none;
+}
+
+td{
+    width: 30em;
+    height: 3em;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+form{
+    background-color: orange;
+}
+
+input[type=email], input[type=password]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: solid 0.6pt black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+}
+
+
+button{
+    margin: 2em;
+    padding: 0.7em;
+    width:30%;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}

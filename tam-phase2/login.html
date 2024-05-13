@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:768px)">
+    <title>Login</title>
+</head>
+<body>
+    <form action="login.php" method="POST">
+        <legend>Login</legend>
+        <fieldset>
+            <table>
+                <!--username input-->
+                <tr>
+                    <td>
+                        <input type="email" id="username" name="username" placeholder="Email" required>
+                    </td>
+                </tr>
+                <!--password input-->
+                <tr>
+                    <td>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Submit</button>  
+                    </td>
+                </tr>  
+                    
+            </table>
+            
+        </fieldset>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+#title{
+    font-size: 4em;
+}
+
+#caption{
+    font-size: 2em;
+} 
+
+img{
+    height: 3em;
+    width: auto;
+
+}
+
+div img{
+    margin-top:1rem;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#contacts{
+    display: grid;
+    gap: 0.3rem;
+    background-color: white;
+    grid-template-areas:
+    'first_icon first_link'
+    'second_icon second_link'
+    'third_icon third_link'
+    'fourth_icon fourth_link'
+    'fifth_icon fifth_link';
+}
+
+#first_icon{
+    grid-area: first_icon;
+    padding: 1rem;
+}
+
+#first_link{
+    grid-area: first_link;
+    padding: 1rem;
+}
+
+#second_icon{
+    grid-area: second_icon;
+    padding: 1rem;
+}
+
+#second_link{
+    grid-area: second_link;
+    padding: 1rem;
+}
+
+#third_icon{
+    grid-area: third_icon;
+    padding: 1rem;
+}
+
+#third_link{
+    grid-area: third_link;
+    padding: 1rem;
+}
+
+#fourth_icon{
+    grid-area: fourth_icon;
+    padding: 1rem;
+}
+
+#fourth_link{
+    grid-area: fourth_link;
+    padding: 1rem;
+}
+
+#fifth_icon{
+    grid-area: fifth_icon;
+    padding: 1rem;
+}
+
+#fifth_link{
+    grid-area: fifth_link;
+    padding: 1rem;
+}

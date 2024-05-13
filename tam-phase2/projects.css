@@ -1,0 +1,66 @@
+#title{
+    font-size: 4em;
+}
+
+#projects{
+    display: grid;
+    gap: 0.3rem;
+    background-color: white;
+    grid-template-areas:
+    'current_projects research_projects';
+}
+
+/*style for projects section*/
+#research_projects {
+    grid-area: research_projects;
+    padding: 1rem;
+    background-color: lightgray;
+    height: fit-content;
+    border: 0.4em solid orange;
+    border-radius:1.563em;
+    width: 80%;
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+#current_projects{
+    grid-area: current_projects;
+    padding: 1rem;
+    background-color: lightgray;
+    height: fit-content;
+    border: 0.4em solid orange;
+    border-radius:1.563em;
+    width: 80%;
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+/*style for projects section*/
+.projects{
+    background-color: white;
+    border: 0.4em solid white;
+    border-radius:1.563em;
+    padding: 0.625em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.projects summary{
+    font-size: 1.25em;
+    width:20em;
+}
+
+.projects details{
+    margin-bottom: 1.1em;
+    width:45em;
+    height: fit-content;
+}
+
+.projects details p{
+    max-width: 90%;
+    margin-left: 1.1em;
+}
+
+.projects strong{
+    margin-left: 1.1em;
+}

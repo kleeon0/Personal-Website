@@ -1,0 +1,25 @@
+h1{
+    width: fit-content;
+    font-size: 3em;
+    margin: 0 auto;
+}
+
+section{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+section button{
+    font-size: 1.2em;
+    border: .4em solid black;
+    border-radius:1.563em;
+    margin-inline: 10em;
+    padding-block: 1em;
+    padding-inline: 2em;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}

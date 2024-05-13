@@ -1,0 +1,255 @@
+@media only screen and (max-width: 768px) {
+
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+    
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start; 
+        justify-content: center;
+    }
+    
+    nav a{
+        font-size: 2em;
+        text-decoration: none;
+    }
+    
+    /*style for header section*/
+    header {
+        grid-area: header;
+        padding: 0.5rem;
+        background-color: orange;
+    }
+    
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    ul{
+        list-style-type: none;
+        text-indent: -1em;
+    }
+    
+    
+    .center{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+    
+    
+    .grid-container{
+        display: grid;
+        min-height: 100%;
+        grid-template-areas:
+        'header header '
+        'myself myself '
+        'about about'
+        'skills skills '
+        'education education ' 
+        'footer footer ';
+    }
+    
+    .jost{
+        font-family: "Jost", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    
+    .cabin {
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+    }
+    
+    .source-code{
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    
+    .format{
+        padding: 0.3em;
+        font-size: 1.3em;
+    }
+    
+    #self_img{
+        height: 30em;
+        width: auto;
+        /* image style */
+        border-radius:50%;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+    
+    
+    #socials{
+        display: flex;
+        align-items: start; 
+        justify-content: center;
+        gap: 2em;
+        float: left;
+    
+    }
+    
+    #socials img{
+        height: 3em;
+        width: auto;
+    }
+    
+    
+    .right{
+        list-style-type: none;
+        text-align: center;
+        margin: 0;;
+        padding: 1em;
+        a{
+            font-size: 1.3em;
+            padding: 0.7em;
+        }
+    }
+    
+    .right a li{
+        display: inline;
+    }
+    
+    .p{   
+        display: block;
+        float: right;
+        padding: 1em;
+    }
+    
+    
+    
+    /*style for about section*/
+    #about{
+        grid-area: about;
+    }
+    
+    #about h1{
+        font-size: 4em;
+    }
+    
+    #about p{
+        font-size: 1.5em;
+    }
+    
+    /*style for skills section*/
+    #skills {
+        grid-area: skills;
+        padding: 0.5rem;
+        background-color: white;
+        width: 60%;
+        border: 0.4em solid orange;
+        border-radius:1.563em;
+        margin-top: 7em;
+        margin-bottom: 7em;
+    }
+    .skills_grid{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        display: grid;
+        gap: 5rem;
+        background-color: white;
+        grid-template-areas:
+        'frontend' 
+        'backend' 
+        'other_skills';
+    }
+    
+    #title{
+        font-size: 3em;
+        text-align: center;
+        padding: 0.5em;
+    }
+    
+    #frontend{
+        border: 0.4em solid orange;
+        grid-area: frontend;
+        padding: 1rem;
+        border-radius:1.563em;
+        
+    }
+    
+    #backend{
+        border: 0.4em solid orange;
+        grid-area: backend;
+        padding: 1rem;
+        border-radius:1.563em;
+    }
+    
+    #other_skills{
+        border: 0.4em solid orange;
+        grid-area: other_skills;
+        padding: 1rem;
+        border-radius:1.563em;
+    }
+    
+    
+    /*style for myself section*/
+    #myself {
+        grid-area: myself;
+        padding: 0.5rem;
+        margin-top: 8.4em;
+        margin-bottom: 8.4em;
+    }
+    
+    #myself h1{
+        font-size: 4em;
+    }
+    
+    #myself p{
+        font-size: 2.5em;
+    }
+    
+    /*style for education section*/
+    
+    #education {
+        grid-area: education;
+        padding: 0.5rem;
+        width: 60%;
+        
+        border: 0.4em solid orange;
+        border-radius:1.563em;
+        
+        margin-bottom: 7em;
+    }
+    
+    #education h2{
+        font-size: 1.3em;
+    }
+    
+    /*style for footer section*/
+    
+    footer {
+        grid-area: footer;
+        padding: 0.5rem;
+        background-color: orange;
+        color: white;
+        align-content: center;
+    }
+
+    #projects{
+        display: grid;
+        gap: 0.3rem;
+        background-color: white;
+        grid-template-areas:
+        'current_projects' 
+        'research_projects';
+    }
+
+
+
+    #caption{
+        font-size: 1.3em;
+    }
+}
